@@ -1,6 +1,5 @@
 .sass-cache
-.tmp
 node_modules
 libs
-index.html
 bitbucket.sh
+*.sublime-workspace

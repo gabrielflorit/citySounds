@@ -15,6 +15,7 @@
 				"bower.json",
 				".gitignore",
 				"*.sublime-project",
+				"*.sublime-workspace",
 				"gulpfile.js",
 				"html/template.html",
 				"LICENSE.md",

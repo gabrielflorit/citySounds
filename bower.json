@@ -1,0 +1,7 @@
+{
+	"name": "citysounds",
+	"version": "0.0.0",
+	"dependencies": {
+		"normalize.css": "~3.0.1"
+	}
+}

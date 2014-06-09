@@ -1,0 +1,15 @@
+{
+	"name": "citysounds",
+	"version": "0.0.0",
+	"author": "gabriel-florit",
+	"dependencies": {},
+	"devDependencies": {
+		"express": "^4.2.0",
+		"gulp": "^3.6.2",
+		"gulp-file-include": "^0.3.1",
+		"gulp-livereload": "^1.5.0",
+		"gulp-rename": "^1.2.0",
+		"run-sequence": "^0.3.6",
+		"gulp-ruby-sass": "^0.5.0"
+	}
+}

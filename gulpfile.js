@@ -34,7 +34,7 @@ function startLivereload() {
 	});
 
 	// watch for changes and notify livereload
-	gulp.watch(['index.html', '.tmp/**/*.css'], function(e) {
+	gulp.watch(['index.html', 'build/**/*.css'], function(e) {
 		server.changed(e.path);
 	});
 }
@@ -49,7 +49,7 @@ gulp.task('build-html', function() {
 function compileStylesheets(e) {
 	return gulp.src(e)
 		.pipe(sass())
-		.pipe(gulp.dest('.tmp'));
+		.pipe(gulp.dest('build'));
 }
 
 gulp.task('compile-all-stylesheets', function() {

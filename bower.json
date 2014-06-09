@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "normalize.css": "~3.0.1",
-    "Audiolet": "*"
+    "Audiolet": "*",
+    "tsw": "~0.1.2"
   }
 }

@@ -1,4 +1,13 @@
-var audiolet = new Audiolet();
-var sine = new Sine(audiolet, 461);
+function playSound(frequency, waitDuration) {
+	var osc = tsw.oscillator(frequency);
 
-sine.connect(audiolet.output);
+	tsw.connect(osc, tsw.speakers);
+
+	osc.start(tsw.now() + waitDuration);
+}
+
+var scale = ['C', 'E', 'G', 'B'];
+
+for (var i = 0; i < scale.length; i++) {
+	playSound(tsw.frequency(scale[i] + '4'), i*1);
+}

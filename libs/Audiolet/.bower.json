@@ -1,0 +1,14 @@
+{
+  "name": "Audiolet",
+  "homepage": "https://github.com/oampo/Audiolet",
+  "_release": "da89cd4fff",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "da89cd4fff82b744101d489d6250e72ae7519c0a"
+  },
+  "_source": "git://github.com/oampo/Audiolet.git",
+  "_target": "*",
+  "_originalSource": "Audiolet",
+  "_direct": true
+}

@@ -25,7 +25,7 @@ function startLivereload() {
 
 	// watch for changes to html and rebuild
 	gulp.watch([
-		'html/html.html',
+		'html/*.html',
 	], ['build-html']);
 
 	// watch for changes to scss and recompile
@@ -34,7 +34,7 @@ function startLivereload() {
 	});
 
 	// watch for changes and notify livereload
-	gulp.watch(['index.html', 'build/**/*.css'], function(e) {
+	gulp.watch(['index.html', 'js/**/*.js', 'build/**/*.css'], function(e) {
 		server.changed(e.path);
 	});
 }
